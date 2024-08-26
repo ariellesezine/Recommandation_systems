@@ -1,4 +1,8 @@
 # Recommandation_systems
+# Recommandation of courses on a website based on user search
+# api with djangorestframework
+# cosine_similarity
+
 this repository contains my work on a specifique type of recommandation system : content_based
 
 it contains a jupyter notebbok of my work
