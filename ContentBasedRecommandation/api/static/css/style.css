@@ -1,0 +1,47 @@
+
+body{
+    height: 100%;
+    margin: 0;
+    border: 0;
+    color: white;
+    background-image: url(night.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
+
+}
+
+
+#mon_formulaire input[type="str"] {
+    width: 100%; /* largeur des champs à 100% de la largeur du formulaire */
+    height: 35px; /* hauteur des champs */
+    margin-bottom: 10px; /* espacement entre les champs */
+    padding: 5px; /* espace intérieur */
+    border: 1px solid #ccc; /* bordure des champs */
+    border-radius: 5px; /* coins arrondis */
+}
+
+/* Définir la taille du bouton de soumission */
+#mon_formulaire input[type="submit"] {
+    height: 30px;
+    background-color: #6bb4e8; /* couleur de fond */
+    color: white; /* couleur du texte */
+    border: none; /* enlever la bordure */
+    border-radius: 5px; /* coins arrondis */
+    cursor: pointer; /* curseur de la souris en pointeur */
+}
+
+/* Changer la couleur du bouton lors du survol */
+#mon_formulaire input[type="submit"]:hover {
+    background-color: #45a049; /* couleur de fond lors du survol */
+}

@@ -1,0 +1,19 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>results</title>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+</head>
+<body>
+    <h1> Nous vous recommandons:</h1>
+    <h2> {{recomand}}</h2>
+    <ul>
+        {% for cours in cours %}
+            <li>{{ cours }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
